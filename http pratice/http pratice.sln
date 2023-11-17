@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Http_Triggers", "Http_Triggers\Http_Triggers.csproj", "{3E9D852D-FC76-4C08-85E9-3FFF0DF92FD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "http pratice", "http pratice\http pratice.csproj", "{01CE5CCA-8098-4CC1-8DD4-58A0A3450A5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3E9D852D-FC76-4C08-85E9-3FFF0DF92FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E9D852D-FC76-4C08-85E9-3FFF0DF92FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E9D852D-FC76-4C08-85E9-3FFF0DF92FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E9D852D-FC76-4C08-85E9-3FFF0DF92FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CE5CCA-8098-4CC1-8DD4-58A0A3450A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CE5CCA-8098-4CC1-8DD4-58A0A3450A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CE5CCA-8098-4CC1-8DD4-58A0A3450A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CE5CCA-8098-4CC1-8DD4-58A0A3450A5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E8808BB2-36E1-4E48-AF5E-B4DCD20E4871}
+		SolutionGuid = {C7B54E99-C16F-40F0-87D9-15BA5617479E}
 	EndGlobalSection
 EndGlobal

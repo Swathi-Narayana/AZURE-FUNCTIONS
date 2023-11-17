@@ -1,8 +1,8 @@
 {
   "profiles": {
-    "Http_Triggers": {
+    "http_pratice": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7132",
+      "commandLineArgs": "--port 7294",
       "launchBrowser": false
     }
   }
