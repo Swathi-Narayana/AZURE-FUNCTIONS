@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\httptriggers",
+    "\\httptriggers\\http pratice",
+    "\\httptriggers\\http pratice\\CommonUtilities",
+    "\\httptriggers\\http pratice\\CommonUtilities\\Modles",
+    "\\httptriggers\\http pratice\\DAL",
+    "\\httptriggers\\http pratice\\Domain",
+    "\\httptriggers\\http pratice\\Http Triggers"
+  ],
+  "SelectedNode": "\\httptriggers\\http pratice\\Http Triggers\\StudentHttpTriggers.cs",
+  "PreviewInSolutionExplorer": false
+}
