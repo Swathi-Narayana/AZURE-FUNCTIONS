@@ -3,12 +3,9 @@
     "",
     "\\httptriggers",
     "\\httptriggers\\http pratice",
-    "\\httptriggers\\http pratice\\CommonUtilities",
-    "\\httptriggers\\http pratice\\CommonUtilities\\Modles",
-    "\\httptriggers\\http pratice\\DAL",
-    "\\httptriggers\\http pratice\\Domain",
-    "\\httptriggers\\http pratice\\Http Triggers"
+    "\\httptriggers\\http pratice\\Http Triggers",
+    "\\httptriggers\\TestProject1"
   ],
-  "SelectedNode": "\\httptriggers\\http pratice\\Http Triggers\\StudentHttpTriggers.cs",
+  "SelectedNode": "\\httptriggers\\TestProject1\\UnitTest1.cs",
   "PreviewInSolutionExplorer": false
 }

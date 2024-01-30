@@ -15,7 +15,7 @@ namespace http_pratice
     {
         private static readonly IConfigurationRoot Configuration = new ConfigurationBuilder()
             .SetBasePath(Environment.CurrentDirectory)
-            .AddJsonFile("localsetting.json", true)
+            .AddJsonFile("local.setting.json", true)
             .AddEnvironmentVariables()
             .Build();
 
@@ -26,7 +26,7 @@ namespace http_pratice
                 var connectionString = Configuration["CosmosDbConnectionString"];
                 if (string.IsNullOrEmpty(connectionString))
                 {
-                    throw new InvalidOperationException("Please specify a valid CosmosDBConnection in the appSettings.json file or your Azure Functions Settings.");
+                    throw new InvalidOperationException("Please specify a valid CosmosDBConnection in the localSettings.json file or your Azure Functions Settings.");
                 }
 
                 return new CosmosClientBuilder(connectionString)
