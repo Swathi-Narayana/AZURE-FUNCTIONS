@@ -10,7 +10,7 @@ namespace http_pratice.CommonUtilities
     {
         public const string DeleteStudent = "delStudentInfo/{id}";
         public const string UpdateStudent = "updateStudentInfo/{id}";
-        public const string PostStudent = "PostStudentInfo/{id}";
+        public const string PostStudent = "PostStudentInfo";
         public const string GetStudentId = "GetStudentInfoById/{id}";
         public const string GetStudent = "getallstudentinfo";
     }

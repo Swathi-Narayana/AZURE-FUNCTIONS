@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using http_pratice.DAL;
 using System.Threading.Tasks;
+using Azure.Core;
+using System.Net.Http;
 
 namespace http_pratice.DAL
 {
@@ -15,12 +17,11 @@ namespace http_pratice.DAL
 
     public  interface IStudentDal
     {
-        Task<IActionResult> CreateItem(HttpRequest req, string id, string name, string Age,  string Phone, string Email, IAsyncCollector<dynamic> documentsOut);
-        
-        Task<IActionResult> ReadItem(HttpRequest req, IEnumerable<dynamic> documents);
-        Task<IActionResult> ReadItemById(HttpRequest req, string id, Microsoft.Azure.Cosmos.Container documentContainer);
-       Task<IActionResult> UpdateItem(HttpRequest req, string id, Microsoft.Azure.Cosmos.Container documentContainer);
-        Task<IActionResult> DeleteItem(HttpRequest req, string id, Microsoft.Azure.Cosmos.Container documentContainer);
+        Task<IActionResult> CreateItem(Student StudentData);
+        Task<IActionResult> ReadItem();
+        Task<IActionResult> ReadItemById(string id);
+        Task<IActionResult> UpdateItem(Student Studentdata, string id);
+        Task<IActionResult> DeleteItem(string id);
     }
     
 
