@@ -18,7 +18,7 @@ namespace http_pratice.CommonUtilities.Modles
         public string id { get; set; } = Guid.NewGuid().ToString();
 
         [Required(ErrorMessage = "Name is required")]
-        [StringLength(100, ErrorMessage = "Name cannot be longer than 100 characters")]
+        [StringLength(100, MinimumLength =3, ErrorMessage = "Name cannot be longer than 100 characters and Not less than 3 characters")]
         [RegularExpression("^[a-zA-Z]+$", ErrorMessage = "Name should only contain alphabets")]
         public string Name { get; set; }
         [Required(ErrorMessage = "Age is required")]
@@ -37,11 +37,6 @@ namespace http_pratice.CommonUtilities.Modles
         public string Email { get; set; }
     }
 
-    public class UpdateStudent
-    {
-        public string Name { get; set; }
-       
-        
-    }
+    
 
 }
