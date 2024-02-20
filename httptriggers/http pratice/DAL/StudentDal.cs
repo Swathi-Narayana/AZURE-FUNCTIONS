@@ -1,4 +1,4 @@
-﻿using http_pratice.CommonUtilities;
+using http_pratice.CommonUtilities;
 using http_pratice.CommonUtilities.Modles;
 using http_pratice.DAL;
 using http_pratice.Domain;

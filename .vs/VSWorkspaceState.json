@@ -3,6 +3,7 @@
     "",
     "\\httptriggers",
     "\\httptriggers\\http pratice",
+<<<<<<< HEAD
     "\\httptriggers\\http pratice\\CommonUtilities",
     "\\httptriggers\\http pratice\\DAL",
     "\\httptriggers\\http pratice\\Domain",
@@ -10,5 +11,11 @@
     "\\httptriggers\\TestProject1"
   ],
   "SelectedNode": "\\httptriggers\\http pratice\\CommonUtilities\\StudentCommonlogic.cs",
+=======
+    "\\httptriggers\\http pratice\\Http Triggers",
+    "\\httptriggers\\TestProject1"
+  ],
+  "SelectedNode": "\\httptriggers\\TestProject1\\UnitTest1.cs",
+>>>>>>> 645198d923440a218678b613b60545179a158961
   "PreviewInSolutionExplorer": false
 }
