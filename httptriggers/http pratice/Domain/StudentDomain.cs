@@ -28,7 +28,6 @@ namespace http_pratice.Domain
         private readonly IStudentDal _studentDal;
         StudentCosmologic studentlogic = new StudentCosmologic();
         public StudentDomain(IStudentDal studentDal)
-<<<<<<< HEAD
         {
             _studentDal =  studentDal;
         }
@@ -37,16 +36,6 @@ namespace http_pratice.Domain
             return await _studentDal.ReadItem();
         }
         public async Task<IActionResult> ReadItemById(string id)
-=======
-        { 
-            _studentDal = new StudentDal(); 
-        }
-        public async Task<IActionResult> ReadItem(IEnumerable<dynamic> documents)
-        {
-            return await _studentDal.ReadItem(documents);
-        }
-        public async Task<IActionResult> ReadItemById(string id, Microsoft.Azure.Cosmos.Container documentContainer)
->>>>>>> 645198d923440a218678b613b60545179a158961
         {
             if (string.IsNullOrEmpty(id))
             {
@@ -54,19 +43,11 @@ namespace http_pratice.Domain
                 return studentlogic.GenerateBadResponse(gmessage);
             }
 
-<<<<<<< HEAD
            return await _studentDal.ReadItemById(id);
         }
 
 
         public async Task<IActionResult> CreateItem(Student StudentData)
-=======
-            return await _studentDal.ReadItemById(id, documentContainer);
-        }
-
-
-        public async Task<IActionResult> CreateItem(Student StudentData, Microsoft.Azure.Cosmos.Container documentContainer)
->>>>>>> 645198d923440a218678b613b60545179a158961
         {
 
             
@@ -77,26 +58,17 @@ namespace http_pratice.Domain
                 return studentlogic.GenerateBadResponse(errorMessages);
             }
 
-<<<<<<< HEAD
             return await _studentDal.CreateItem(StudentData);
-=======
-            return await _studentDal.CreateItem(StudentData, documentContainer);
->>>>>>> 645198d923440a218678b613b60545179a158961
 
         
         }
 
 
-<<<<<<< HEAD
         public async Task<IActionResult> UpdateItem(Student Studentdata, string id)
-=======
-        public async Task<IActionResult> UpdateItem(Student Studentdata, string id, Microsoft.Azure.Cosmos.Container documentContainer)
->>>>>>> 645198d923440a218678b613b60545179a158961
         {
             if (string.IsNullOrEmpty(id))
             {
                 string gmessage = "Error while deleting student";
-<<<<<<< HEAD
                 return new BadRequestObjectResult(gmessage);
             }
 
@@ -104,26 +76,13 @@ namespace http_pratice.Domain
         }
 
         public async Task<IActionResult> DeleteItem( string id)
-=======
-                return studentlogic.GenerateBadResponse(gmessage);
-            }
-
-            return await _studentDal.UpdateItem(Studentdata, id, documentContainer);
-        }
-
-        public async Task<IActionResult> DeleteItem( string id, Microsoft.Azure.Cosmos.Container documentContainer)
->>>>>>> 645198d923440a218678b613b60545179a158961
         {
             if (string.IsNullOrEmpty(id))
             {
                 string gmessage = "Error while deleting student";
                 return studentlogic.GenerateBadResponse(gmessage);
             }
-<<<<<<< HEAD
             return await _studentDal.DeleteItem(id);
-=======
-            return await _studentDal.DeleteItem(id, documentContainer);
->>>>>>> 645198d923440a218678b613b60545179a158961
 
         }
     }   

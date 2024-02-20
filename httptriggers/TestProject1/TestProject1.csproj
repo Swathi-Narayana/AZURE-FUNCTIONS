@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-=======
-<Project Sdk="Microsoft.NET.Sdk">
->>>>>>> 645198d923440a218678b613b60545179a158961
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
